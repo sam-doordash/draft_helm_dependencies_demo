@@ -1,0 +1,9 @@
+[pre-up]
+"pre-up starting" = "echo pre-up starting"
+"helm requirements download" = "helm dependency update charts/python"
+
+[post-deploy]
+"deploy finished" = "echo deploy finished"
+
+[post-delete]
+"delete finished" = "echo delete finished"
